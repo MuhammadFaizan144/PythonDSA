@@ -22,15 +22,17 @@
 # SC O(k) k=amount of factor
 
 # optimal solution
-# from math import sqrt
-# num=25
-# result=[]
-# for i in range(1,int(sqrt(num))+1):
-#     if num%i==0:
-#         result.append(i)
-#         if num//i !=i:
-#             result.append(num//i)
-# print(result)
+from math import sqrt
+num=36
+result=[]
+for i in range(1,int(sqrt(num))+1):
+    if num%i==0:
+        result.append(i)
+        if num//i !=i:
+            
+            result.append(num//i)
+        print(num//i)
+print(result)
 
 # TC O(N)+O(NlogN)
 # SC O(k) k=amount of factor
