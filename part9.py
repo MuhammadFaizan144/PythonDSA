@@ -1,3 +1,4 @@
+# Print All Factors of a Given Number 
 # brute force
 # num=2
 # result=[]

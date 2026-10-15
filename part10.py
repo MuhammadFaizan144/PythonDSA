@@ -1,3 +1,4 @@
+# Store Frequency in Dictionary
 # Method 1
 # find=3
 # nums=[1,2,3,3,5,3,5,10,10,2,57]
