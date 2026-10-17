@@ -18,3 +18,6 @@ def func():
     func()
     print("recursion")
 func()
+
+# TC O(N+1) => O(N)
+# SC O(N+1) => O(N)
